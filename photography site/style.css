@@ -1,0 +1,88 @@
+
+.header{
+    height: 500px;
+    background-image: url("img/backpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.pagination { /* zmiana tła, do zrobienia */
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+
+li a {          /* List elements */
+    width: 100px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0px 20px;
+}
+
+#maintxt{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    font-family: fantasy;
+    font-size: 56px;
+}
+
+.brand-logo {
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+img{
+    height: 200px;
+}
+
+h4 {
+    font-style: oblique;
+}
+
+.box {
+    height: 480px;
+} 
+
+.bg-image{
+    background-image: url("img/background2.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    left: 50%;
+    bottom: 200px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    height: 300px;
+    background-image: url("img/background1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    
+}
